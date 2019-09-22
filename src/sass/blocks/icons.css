@@ -1,0 +1,26 @@
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icons__cart {
+  margin: 0 12px;
+}
+
+.icons__search {
+  margin-left: 12px;
+}
+
+.icons__search {
+  position: relative;
+}
+
+.icons__img {
+  display: block;
+  cursor: pointer;
+}
+/*# sourceMappingURL=icons.css.map */

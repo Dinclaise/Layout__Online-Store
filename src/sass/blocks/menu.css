@@ -1,0 +1,18 @@
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.menu a {
+  font-size: 12px;
+  line-height: 23px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+/*# sourceMappingURL=menu.css.map */

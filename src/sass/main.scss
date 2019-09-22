@@ -1,0 +1,31 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "fonts";
+
+/*Blocks*/
+@import "./blocks/top";
+@import "./blocks/menu";
+@import "./blocks/icons";
+@import "./blocks/slider";
+@import "./blocks/categories";
+@import "./blocks/content";
+
+/* Main Styles */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.container { 
+    @include min-max(320px, 100%, 0);
+}
+
+.wrap {
+    @include min-max(320px, 1200px, 15px);
+}
+
+p {
+    color: $black;
+}
