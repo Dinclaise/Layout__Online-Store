@@ -1,0 +1,36 @@
+.banner {
+  background: url("/src/img/banner1.jpg") left center no-repeat #00b7d9;
+  background-size: cover;
+  margin: 25px 0;
+  padding: 45px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.banner .banner__information {
+  -ms-flex-preferred-size: 630px;
+      flex-basis: 630px;
+  margin-right: 70px;
+  text-align: center;
+}
+
+.banner .banner__title {
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 600;
+  letter-spacing: 2.6px;
+  text-transform: uppercase;
+}
+
+.banner p {
+  color: #2d2b27;
+  margin: 15px 0;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 5.6px;
+}
+/*# sourceMappingURL=banner.css.map */

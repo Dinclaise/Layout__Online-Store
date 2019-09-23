@@ -1,0 +1,70 @@
+.featured {
+    margin: 90px 0;
+
+    .featured__title {
+        font-size: 26px;
+        line-height: 30px;
+        letter-spacing: 2.6px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #2d2b27;
+        text-align: center;
+    }
+
+    .featured__block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .featured__element {
+        flex-basis: 23%;
+
+        img {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 17px;
+            margin: 7px 0;
+
+            a {
+                font-size: 15px;
+                line-height: 17px;
+                text-decoration: none;
+                color: #000;
+                font-weight: 700;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+
+    .featured__brand {
+        color: #898989;
+    }
+
+    .featured__price {
+        font-weight: 700;
+
+        span {
+            font-weight: 400;
+            text-decoration: line-through;
+            margin-right: 10px;
+        }
+    }
+
+    .featured__btn {
+        $values: (fs: 12px, lh: 20px, ls: 0.6px, w: 175px, br: 60px, clr: #000, bg: transparent);
+        @include btn($values...) {
+            border: 2px solid #d9c8aa;
+            margin: 50px auto;
+            padding: 18px 0;
+        }
+    }
+}
