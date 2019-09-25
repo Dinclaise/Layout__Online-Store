@@ -1,0 +1,18 @@
+.footer {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer p {
+  font-size: 14px;
+  line-height: 30px;
+  color: #727272;
+  font-weight: 300;
+  margin: 20px 0;
+}
+
+.footer img {
+  display: block;
+  margin: 40px auto 30px;
+}
+/*# sourceMappingURL=footer.css.map */
